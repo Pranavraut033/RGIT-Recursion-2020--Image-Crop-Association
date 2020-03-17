@@ -28,10 +28,11 @@ A web interface to associate cropped images with their original full- sized imag
 
     1. npm run serve
     
-**Output of SIFT+KNN**
-![im-2](https://user-images.githubusercontent.com/12711480/76871467-17f99280-6891-11ea-96ad-0b29299fa994.jpg)
-![im-3](https://user-images.githubusercontent.com/12711480/76871473-19c35600-6891-11ea-9819-247d841b81d7.jpg)
-
+**Output of SIFT+KNN**</br>
+ 
+![im-2](https://user-images.githubusercontent.com/12711480/76871467-17f99280-6891-11ea-96ad-0b29299fa994.jpg) </br>
+    
+    
 **Output of web interface**
 
 ![ezgif com-video-to-gif](https://user-images.githubusercontent.com/12711480/76875021-fea71500-6895-11ea-9896-8fe1b8377a18.gif)
