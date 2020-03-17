@@ -1,35 +1,43 @@
 # RGIT Recursion 2020: Image Crop Association
 
-## Project setup
+**The above code is written in JS & Python**
 
-```
-npm install
-```
+**Description**:
 
-### Compiles and hot-reloads for development
+A web interface to associate cropped images with their original full- sized image. This was built during the RGIT Recursion Hackathon held on 13th and 14th March, 2020. The given dataset consisted of cropped images that were scaled, shrinked, rotated, skewed and noisy. We utlized SIFT+KNN to detect feature points and associate the cropped images to their respective original images. A memory game was also implemented on this interface.
 
-```
-npm run serve
-```
+   **The given task was to**: 
 
-### Compiles and minifies for production
+    1. To identify associations between the provided cropped and original images.
+    2. To specify the location of the crops from the original image in a json file
 
-```
-npm run build
-```
+  **Required Libraries**: 
 
-### Run your tests
+    1. NPM 
+    2. VueJS
+    3. OpenCV built from source
+    
+  **Important files*: 
 
-```
-npm run test
-```
+    1. ./python/dataset : Consists of the dataset provided during the competition 
+    2. ./python/main.py : Has the SIFT+KNN algorithm. Saves the output in ./python/result.json
+    3. ./public/result.json : Copy the output from ./python/result.json & /public/result.json
 
-### Lints and fixes files
+    
+  **To run the project**: 
 
-```
-npm run lint
-```
+    1. npm run serve
+    
+**Output of SIFT+KNN**
+![im-2](https://user-images.githubusercontent.com/12711480/76871467-17f99280-6891-11ea-96ad-0b29299fa994.jpg)
+![im-3](https://user-images.githubusercontent.com/12711480/76871473-19c35600-6891-11ea-9819-247d841b81d7.jpg)
 
-### Customize configuration
+**Output of web interface**
 
-See [Configuration Reference](https://cli.vuejs.org/config/).
+![ezgif com-video-to-gif](https://user-images.githubusercontent.com/12711480/76875021-fea71500-6895-11ea-9896-8fe1b8377a18.gif)
+
+Program written by:<br>
+Pranav Raut <br>
+Sameer Pusegoankar <br>
+Bhushan Patil <br>
+
