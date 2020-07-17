@@ -36,8 +36,8 @@ A web interface to associate cropped images with their original full- sized imag
  
 ![im-2](https://user-images.githubusercontent.com/12711480/76871467-17f99280-6891-11ea-96ad-0b29299fa994.jpg) </br>
     
-Program written by:<br>
-Pranav Raut <br>
-Sameer Pusegoankar <br>
-Bhushan Patil <br>
+****Program written by:****
++ Pranav Raut <br>
++ Sameer Pusegoankar <br>
++ Bhushan Patil <br>
 
